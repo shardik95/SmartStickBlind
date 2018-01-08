@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:hint="@string/emg_name"
+            android:padding="@dimen/padding"
+            android:textColorHighlight="@color/colorPrimary"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/contact_number"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:layout_toRightOf="@id/contact_name"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:padding="@dimen/padding"
+            android:hint="@string/emg_num"
+            android:textColorHighlight="@color/colorPrimary"/>
+
+</RelativeLayout>

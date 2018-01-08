@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SmartStick</string>
+    <string name="action_settings">Settings</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="average">Average Value:</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="clear">Clear</string>
+    <string name="setting">Settings</string>
+    <string name="inst">Instructions</string>
+    <string name="navigate">Navigation</string>
+    <string name="current">Current Value:</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_navigate">NavigateActivity</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="nav_inst">Double tap on screen to start navigation</string>
+    <string name="calib_start">Walk normally to calibrate the sensor</string>
+    <string name="calib_done">Calibration done</string>
+
+    <string name="welcome">Welcome to SmartStick app. Double tap on screen to start navigation.
+        Swipe right on bottom screen to use gestures.
+        Swipe left on bottom screen to listen instructions again.</string>
+    <string name="sensor_start">Pothole and obstacle detection started.</string>
+    <string name="sensor_stop">Pothole and obstacle detection stopped.</string>
+
+    <string name="pothole">Pothole detected</string>
+    <string name="obstacle_ahead">Obstacle ahead</string>
+    <string name="obstacle_ahead_near">Obstacle ahead and near</string>
+    <string name="obstacle_right">Turn left</string>
+    <string name="obstacle_left">Turn right</string>
+    <string name="block_ahead">Path is blocked turning suggested</string>
+    <string name="side_clear">Turn anywhere obstacle ahead</string>
+
+    <string name="no_map">Please install a maps application</string>
+    <string name="gesture">Draw particular gesture</string>
+
+    <string name="settings">Emergency Contacts</string>
+    <string name="user_name">User Name: </string>
+    <string name="emg_1">Contact 1</string>
+    <string name="emg_2">Contact 2</string>
+    <string name="emg_3">Contact 3</string>
+    <string name="user_name_hint">Enter User Name</string>
+    <string name="emg_name">Enter Name</string>
+    <string name="emg_num">Enter Number</string>
+    <string name="save">Save</string>
+
+    <string name="no_contact">No contact saved to this gesture</string>
+    <string name="save_cont">Save emergency contracts in Settings</string>
+    <string name="calling">Calling </string>
+
+</resources>
